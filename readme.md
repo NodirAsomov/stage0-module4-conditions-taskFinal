@@ -43,6 +43,7 @@ got value is equal to dividend will print:"can be divided completely", otherwise
 
        public class IntegerDivider {
            public void printCompletelyDivided(int dividend, int divider) {
+            
        
            }
        }
