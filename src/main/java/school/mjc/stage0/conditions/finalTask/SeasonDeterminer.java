@@ -7,22 +7,22 @@ public class SeasonDeterminer {
             case 12:
             case 1:
             case 2:
-                System.out.println("WINTER");
+                System.out.println("Winter");
                 break;
             case 3:
             case 4:
             case 5:
-                System.out.println("SPRING");
+                System.out.println("Spring");
                 break;
             case 6:
             case 7:
             case 8:
-                System.out.println("SUMMER");
+                System.out.println("Summer");
                 break;
             case 9:
             case 10:
             case 11:
-                System.out.println("AUTUMN");
+                System.out.println("Autumn");
                 break;
             default:
                 // Handles the condition if number entered
