@@ -2,8 +2,8 @@ package school.mjc.stage0.conditions.finalTask;
 
 public class DaysInMonth {
     public void printDays(int year, int month) {
-       // boolean isLeapYear;
-        //isLeapYear = (year % 4 == 0);
+        boolean isLeapYear;
+        isLeapYear = (year % 4 == 0);
         if((month==2) && ((year%4==0) || ((year%100!=0)&&(year%400==0))))
             System.out.println("Number of days is 29");
             System.out.println("not leap");
